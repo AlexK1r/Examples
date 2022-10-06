@@ -44,7 +44,8 @@ number = number % 10;
 
 //Число берется из предыдущего вывода
 
-if (number <= 5 || number > 7) Console.WriteLine($"Искомое значение -> {number}");
+if (number <= 5 && number != 0) Console.WriteLine($"Искомое значение -> {number} Этот день не являет выходным");
+else if (number > 7 || number == 0) Console.WriteLine($"Искомое значение -> {number} Это число не относится к дням недели");
 else Console.WriteLine($"Искомое значение -> {number}     Ура, это выходной!");
 Console.WriteLine();
 
