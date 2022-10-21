@@ -184,5 +184,5 @@ for (int i = 0; i < arr4.Length; i++)
     else if (arr4[j] < min) min = arr4[j];      
  }
 Console.WriteLine();
-Console.WriteLine($"Ответ: {max + (min)}");
+Console.WriteLine($"Ответ: {max - (min)}");
 Console.WriteLine();
